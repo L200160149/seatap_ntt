@@ -6,6 +6,10 @@ use App\Models\DonasiModel;
 
 class Donasi extends BaseController
 {
+    /**
+     * @var HTTP\IncomingRequest
+     */
+    protected $request;
 
     public function __construct()
     {
@@ -16,13 +20,11 @@ class Donasi extends BaseController
     {
         $data = [
             'title' => 'Halaman Donasi | Admin',
-            'donasi' => $this->donasiModel->findAll()
+            'donasi' => $this->donasiModel->findAll(),
+            'uri' => \Config\Services::request()->uri
         ];
-
-        // dd($uri->getSegment(1));
-
         echo view('layouts/admin/head', $data);
-        echo view('layouts/admin/sidebar');
+        echo view('layouts/admin/sidebar', $data);
         echo view('admin/donasi/donasi', $data);
         echo view('layouts/admin/footer');
     }

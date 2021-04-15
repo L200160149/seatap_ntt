@@ -27,6 +27,6 @@ class DonasiModel extends Model
 		$db      = \Config\Database::connect();
 		$builder = $db->table('donasi');
 		$builder->selectSum('donasi');
-		return $query = $builder->get();
+		return  $builder->get();
 	}
 }

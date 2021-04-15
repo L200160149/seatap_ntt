@@ -7,10 +7,14 @@ use App\Models\UserModel;
 
 class Users extends BaseController
 {
+	/**
+	 * @var HTTP\IncomingRequest
+	 */
+	protected $request;
+
 
 	public function __construct()
 	{
-
 		$this->userModel = new UserModel();
 	}
 
@@ -19,7 +23,8 @@ class Users extends BaseController
 
 		$data = [
 			'title' => 'Halaman Pengguna | Admin',
-			'user' => $this->userModel->findAll()
+			'user' => $this->userModel->findAll(),
+			'uri' => \Config\Services::request()->uri
 		];
 
 
