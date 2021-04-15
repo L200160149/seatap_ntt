@@ -19,6 +19,8 @@ class Donasi extends BaseController
             'donasi' => $this->donasiModel->findAll()
         ];
 
+        // dd($uri->getSegment(1));
+
         echo view('layouts/admin/head', $data);
         echo view('layouts/admin/sidebar');
         echo view('admin/donasi/donasi', $data);

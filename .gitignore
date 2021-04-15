@@ -125,3 +125,6 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+# Vendor template
+!public/admin/dist/*
+!vendor/myth/*
