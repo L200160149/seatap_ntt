@@ -25,13 +25,13 @@
     <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400&display=swap" rel="stylesheet" type="text/css">
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="/website/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/website/vendor/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="/website/vendor/animate/animate.compat.css">
-    <link rel="stylesheet" href="/website/vendor/simple-line-icons/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="/website/vendor/owl.carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="/website/vendor/owl.carousel/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="/website/vendor/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="/website/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/website/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/website/vendors/animate/animate.compat.css">
+    <link rel="stylesheet" href="/website/vendors/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="/website/vendors/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/website/vendors/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/website/vendors/magnific-popup/magnific-popup.min.css">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="/website/css/theme.css">
@@ -40,16 +40,16 @@
     <link rel="stylesheet" href="/website/css/theme-shop.css">
 
     <!-- Revolution Slider CSS -->
-    <link rel="stylesheet" href="/website/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/website/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/website/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="/website/vendors/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="/website/vendors/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="/website/vendors/rs-plugin/css/navigation.css">
 
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="/website/css/custom.css">
 
     <!-- Head Libs -->
-    <script src="/website/vendor/modernizr/modernizr.min.js"></script>
+    <script src="/website/vendors/modernizr/modernizr.min.js"></script>
 
 </head>
 
@@ -250,36 +250,36 @@
     </div>
 
     <!-- Vendor -->
-    <script src="/website/vendor/jquery/jquery.min.js"></script>
-    <script src="/website/vendor/jquery.appear/jquery.appear.min.js"></script>
-    <script src="/website/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="/website/vendor/jquery.cookie/jquery.cookie.min.js"></script>
-    <script src="/website/vendor/popper/umd/popper.min.js"></script>
-    <script src="/website/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/website/vendor/jquery.validation/jquery.validate.min.js"></script>
-    <script src="/website/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-    <script src="/website/vendor/jquery.gmap/jquery.gmap.min.js"></script>
-    <script src="/website/vendor/lazysizes/lazysizes.min.js"></script>
-    <script src="/website/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/website/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="/website/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="/website/vendor/vide/jquery.vide.min.js"></script>
-    <script src="/website/vendor/vivus/vivus.min.js"></script>
+    <script src="/website/vendors/jquery/jquery.min.js"></script>
+    <script src="/website/vendors/jquery.appear/jquery.appear.min.js"></script>
+    <script src="/website/vendors/jquery.easing/jquery.easing.min.js"></script>
+    <script src="/website/vendors/jquery.cookie/jquery.cookie.min.js"></script>
+    <script src="/website/vendors/popper/umd/popper.min.js"></script>
+    <script src="/website/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/website/vendors/jquery.validation/jquery.validate.min.js"></script>
+    <script src="/website/vendors/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="/website/vendors/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="/website/vendors/lazysizes/lazysizes.min.js"></script>
+    <script src="/website/vendors/isotope/jquery.isotope.min.js"></script>
+    <script src="/website/vendors/owl.carousel/owl.carousel.min.js"></script>
+    <script src="/website/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="/website/vendors/vide/jquery.vide.min.js"></script>
+    <script src="/website/vendors/vivus/vivus.min.js"></script>
 
     <!-- Theme Base, Components and Settings -->
     <script src="/website/js/theme.js"></script>
 
 
     <!-- Current Page Vendor and Views -->
-    <script src="/website/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/website/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/website/vendors/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="/website/vendors/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     <!-- Theme Custom -->
     <script src="/website/js/custom.js"></script>
 
     <!-- Theme Initialization Files -->
     <script src="/website/js/theme.init.js"></script>
-    <script src="/website/vendor/jquery.countdown/jquery.countdown.min.js"></script>
+    <script src="/website/vendors/jquery.countdown/jquery.countdown.min.js"></script>
 
     <script src="<?= base_url() ?>/admin/plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="<?= base_url() ?>/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
