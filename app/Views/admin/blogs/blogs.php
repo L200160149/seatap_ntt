@@ -57,7 +57,20 @@
                         </tr>
                     </thead>
                     <tbody>
-
+                        <?php $no = 1;
+                        foreach ($blogs as $blog) : ?>
+                            <tr>
+                                <th><?= $no++ ?></th>
+                                <td><?= $blog['title'] ?></td>
+                                <td><?= $blog['desc'] ?></td>
+                                <td><?= $blog['author'] ?></td>
+                                <td><img width="200" src="/img/<?= $blog['cover'] ?>" alt="Cover Blog"></td>
+                                <td>
+                                    <a style="margin: 2px;" href="/blogs/edit/<?= $blog['slug'] ?>" class="btn btn-secondary"><i class="fas fa-pen"></i> Ubah</a>
+                                    <a style="margin: 2px;" href="/blogs/hapus/<?= $blog['id'] ?>" class="btn btn-danger"><i class="fas fa-trash"></i> Hapus</a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
                     </tbody>
                     <tfoot>
                         <tr>
