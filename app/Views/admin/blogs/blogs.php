@@ -40,7 +40,6 @@
                 <?php if (session()->getFlashdata('info')) : ?>
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <?= session()->getFlashdata('info'); ?>
-                        <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
                     </div>
                 <?php endif; ?>
                 <a href="/blogs/create" class="btn btn-primary mb-3"><i class="fas fa-plus"></i> Tambah Data</a>
@@ -67,7 +66,8 @@
                                 <td><img width="200" src="/img/<?= $blog['cover'] ?>" alt="Cover Blog"></td>
                                 <td>
                                     <a style="margin: 2px;" href="/blogs/edit/<?= $blog['slug'] ?>" class="btn btn-secondary"><i class="fas fa-pen"></i> Ubah</a>
-                                    <a style="margin: 2px;" href="/blogs/hapus/<?= $blog['id'] ?>" class="btn btn-danger"><i class="fas fa-trash"></i> Hapus</a>
+                                    <a style="margin: 2px;" href="/blogs/detail/<?= $blog['slug'] ?>" class="btn btn-info"><i class="fas fa-eye"></i> Detail</a>
+                                    <a style="margin: 2px;" href="/blogs/delete/<?= $blog['id'] ?>" onclick="return confirm('Hapus Data')" class="btn btn-danger"><i class="fas fa-trash"></i> Hapus</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

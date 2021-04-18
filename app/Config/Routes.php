@@ -33,15 +33,16 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$routes->get('/komik/create', 'Komik::create');
-$routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
+// $routes->get('/komik/create', 'Komik::create');
+// $routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
 // jika setelah komik terdapat number
-$routes->delete('/komik/(:num)', 'Komik::delete/$1');
+// $routes->delete('/komik/(:num)', 'Komik::delete/$1');
 // jika ada user yg akses komik/apapun, lalu diambil dan diarahkan ke controller Komik method detail
-$routes->get('/komik/(:any)', 'Komik::detail/$1');
+// $routes->get('/komik/(:any)', 'Komik::detail/$1');
 // segment berfungsi agar semua uri bisa terambil
 // any berfungsi agar semua uri bisa terambil kecuali /
 
+$routes->get('/register', 'Notfound::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -64,6 +64,6 @@ class Filters extends BaseConfig
 	 */
 	public $filters = [
 		// semua controller bisa di akses kecuali yang didalam array
-		'login' => ['before' => ['donasi', 'pengguna', 'dashboard']],
+		'login' => ['before' => ['donasi', 'pengguna', 'dashboard', 'blogs']],
 	];
 }

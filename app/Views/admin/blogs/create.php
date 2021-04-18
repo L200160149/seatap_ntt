@@ -53,6 +53,11 @@
                                     <span class="error invalid-feedback"><?= $validation->getError('desc'); ?></span>
                                 </div>
                                 <div class="form-group">
+                                    <label for="author">Penulis</label>
+                                    <input type="text" name="author" value="<?= old('author'); ?>" autofocus class="form-control <?= ($validation->hasError('author')) ? 'is-invalid' : ''; ?>" id="author" placeholder="Masukkan Penulis">
+                                    <span class="error invalid-feedback"><?= $validation->getError('author'); ?></span>
+                                </div>
+                                <div class="form-group">
                                     <label for="cover">Cover</label>
                                     <input type="file" name="cover" value="<?= old('cover'); ?>" class="form-control <?= ($validation->hasError('cover')) ? 'is-invalid' : ''; ?>" id="cover">
                                     <span class="error invalid-feedback"><?= $validation->getError('cover'); ?></span>

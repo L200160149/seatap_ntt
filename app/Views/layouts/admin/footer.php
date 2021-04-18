@@ -53,6 +53,19 @@
             "responsive": true,
         });
     });
+
+
+    function previewImg() {
+        const cover = document.querySelector('#cover');
+        const imgPreview = document.querySelector('.img-preview');
+
+        const fileCover = new FileReader();
+        fileCover.readAsDataURL(cover.files[0]);
+
+        fileCover.onload = function(e) {
+            imgPreview.src = e.target.result;
+        }
+    }
 </script>
 </body>
 
